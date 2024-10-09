@@ -7,9 +7,10 @@
             font-family: Arial, sans-serif; /* Imposta il font del testo */
             margin: 0; /* Rimuove i margini del body */
             padding: 0; /* Rimuove il padding del body */
+            text-align: left; /* Imposta l'allineamento del testo a sinistra */
         }
         .container { 
-            text-align: center; /* Allinea il testo al centro */
+            text-align: right; /* Allinea il testo all'interno del contenitore a destra */
             background-color: #007BFF; /* Imposta il colore di sfondo blu */
             display: inline-block; /* Mostra il div come elemento inline-block */
             padding: 20px; /* Aggiunge un padding di 20px attorno al testo */
@@ -22,8 +23,10 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Progetto di prova</h1>
+    <div style="text-align: center;"> <!-- Centro il contenitore -->
+        <div class="container">
+            <h1>Progetto di prova</h1>
+        </div>
     </div>
 </body>
 </html>
